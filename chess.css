@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: black;
+}
+
+.container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.chessboard {
+    display: inline-block;
+    margin-top: 20px;
+    border: 5px solid blue;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 1px solid #000;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7, .row8 {
+    display: flex;
+}
+
+.black {
+    background-color: rgb(143, 137, 137);
+}
+
+.white {
+    background-color: white;
+}

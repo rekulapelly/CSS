@@ -1,0 +1,167 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    /* animation-name :bg2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 8s; */
+
+}
+.container{
+    height:100%;
+    width:100%;
+    border:2px solid;
+    margin: 2px;
+    padding:50px;
+    display:flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    transform: 0.2s ease;
+    
+    
+}
+/* .container>.item{
+    height:50px;
+    width: 50px;
+    object-fit: cover;
+} */
+.item>.item-1{
+    width:50px;
+    height:50px;
+    
+    /* background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png"); */
+}
+.item>.item-2{
+    width:50px;
+    height:50px;
+
+}
+.item>.item-3{
+    width:50px;
+    height:50px;
+
+}
+.item>.item-4{
+    width:50px;
+    height:50px;
+
+}
+.item>.item-5{
+    width:50px;
+    height:50px;
+
+}
+.item>.item-6{
+    width:50px;
+    height:50px;
+
+}
+.item>.item-7{
+    width:50px;
+    height:50px;
+
+}
+.item>img{
+    width:100px;
+    height:100px;
+    
+}
+.item>.p:hover{
+    text-align: center;
+    transform: translateY(10px);
+    
+}
+.item>img:hover{
+    cursor: pointer;
+    transform: translateY(50px);
+    /* background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png");
+     */
+     display: none;
+}
+.container>.item-1:hover{
+        transform: translateY(-10px); /* Added value */
+    background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png");
+    background-size: cover; /* Optional: make image fill the element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid tiling */
+    transition: transform 0.3s ease, background-image 0.3s ease; /* Smooth animation */
+
+}
+.container>.item-2:hover{
+    transform: translateY(-10px);
+    background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, background-image 0.3s ease;
+
+}
+.container>.item-3:hover{
+    transform: translateY(-10px); 
+    background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, background-image 0.3s ease; 
+
+}
+.container>.item-4:hover{
+    transform: translateY(-10px);
+    background-image: url("https://www.infermentum.it/_upload/_middle/1739780385.5457_1736952389.2496_Il-Biscotto-Mela-e-Limone-(600x600).png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, background-image 0.3s ease; 
+
+}
+.container>.item-5:hover{
+    transform: translateY(-10px); 
+    background-image: url("https://www.infermentum.it/_upload/_middle/1693898973.4885_Il-Biscotto-Sbrisolotto_(600x600).png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, background-image 0.3s ease;
+
+}
+.container>.item-6:hover{
+    transform: translateY(-10px);
+    background-image: url("https://www.infermentum.it/_upload/_middle/1693898331.184_Il-Biscotto-Frollino_(600x600).png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease, background-image 0.1s ease; 
+
+    
+}
+.container>.item-7:hover{
+
+    transform: translateY(-10px);
+    background-image: url("https://www.infermentum.it/_upload/_middle/1693898414.5183_Il-Biscotto-al-Cioccolato_(600x600).png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    transition: transform 0.3s ease, background-image 0.1s ease; 
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
